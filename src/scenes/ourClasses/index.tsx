@@ -12,7 +12,7 @@ import Class from "./Class";
 const classes: Array<ClassType> = [
   {
     name: "Weight Training Classes",
-    description:"Build strength and muscle with our targeted weight training classes, suitable for all experience levels. Our expert trainers will guide you through proper form and techniques."
+    description:"Build strength and muscle with our targeted weight training classes, suitable for all experience levels. Our expert trainers will guide you through proper form and techniques.",
     image: image1,
   },
   {
