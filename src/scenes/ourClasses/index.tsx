@@ -11,25 +11,26 @@ import Class from "./Class";
 
 const classes: Array<ClassType> = [
   {
-    name: "Weight Traning Classes",
+    name: "Weight Training Classes",
+    description:"Build strength and muscle with our targeted weight training classes, suitable for all experience levels. Our expert trainers will guide you through proper form and techniques."
     image: image1,
   },
   {
     name: "Ab Core Classes",
     description:
-      "Lorem ipsum dolor sit, adipisicing elit. Eveniet natus molestias totam nostrum, at repellendus magnam deserunt! Tempore, harum cumque.",
+      "Strengthen and tone your core with exercises designed to target your abs and obliques. This class will help improve posture and overall stability.",
     image: image2,
   },
   {
     name: "Adventure Classes",
     description:
-      "Lorem ipsum dolor sit, adipisicing elit. Eveniet natus molestias totam nostrum, at repellendus magnam deserunt! Tempore, harum cumque.",
+      "Push your limits in our adventure classes, featuring outdoor challenges and dynamic workouts designed to enhance endurance and agility. Perfect for those seeking excitement and variety.",
     image: image3,
   },
   {
     name: "Fitness Classes",
     description:
-      "Lorem ipsum dolor sit, adipisicing elit. Eveniet natus molestias totam nostrum, at repellendus magnam deserunt! Tempore, harum cumque.",
+      "Get fit and energized in our diverse fitness classes, focusing on cardio, strength, flexibility, and overall well-being. Whether you’re a beginner or an expert, there’s something for everyone.",
     image: image4,
   },
   {
@@ -39,7 +40,7 @@ const classes: Array<ClassType> = [
   {
     name: "Yoga Classes",
     description:
-      "Lorem ipsum dolor sit adipisicing elit. Eveniet natus molestias totam nostrum, at repellendus magnam deserunt! Tempore, harum cumque.",
+      "Find balance and relaxation with our yoga classes, designed to improve flexibility, reduce stress, and enhance mental clarity. Suitable for all levels, from beginners to advanced practitioners.",
     image: image6,
   },
 ];
@@ -68,10 +69,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-              similique, minus pariatur fuga quidem a incidunt ipsa excepturi
-              nostrum voluptate. Alias commodi aliquid esse qui suscipit ad
-              dicta aperiam.
+            Our gym offers a variety of classes tailored to all fitness levels, from strength training to yoga. Whether you're looking to improve flexibility, boost endurance, or build muscle, we have a class to fit your goals.
             </p>
           </div>
         </motion.div>

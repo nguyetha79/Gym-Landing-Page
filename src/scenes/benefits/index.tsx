@@ -15,19 +15,19 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+      "A spacious layout is designed to help you reach your fitness goals in a modern and comfortable environment. Whether you're lifting weights, practicing yoga, or enjoying cardio sessions, we have everything you need to succeed.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
     description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+      "We offer a wide range of fitness classes to suit all levels and preferences, from high-intensity interval training (HIIT) to calming yoga and everything in between.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainer",
     description:
-      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+      "Whether you're a beginner or an advanced athlete, our expert trainers will create personalized workout plans and offer the support you need to achieve your fitness goals.",
   },
 ];
 
@@ -131,12 +131,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
             >
               <p className="my-5">
                 {" "}
-                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                Felis orci diam odio.
+                Join thousands of satisfied members who are reaching their fitness goals with us. Our supportive community, professional trainers, and top-tier facilities are designed to help you succeed in every step of your fitness journey. From weight loss to strength building, our gym has everything you need to transform your body and mind.
               </p>
               <p className="mb-5">
                 {" "}

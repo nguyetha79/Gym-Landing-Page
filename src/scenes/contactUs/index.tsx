@@ -42,9 +42,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
           </HText>
           <p className="my-5">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
-            quos, atque quasi, explicabo reiciendis pariatur adipisci veritatis
-            deserunt sapiente, quae in consectetur tempora. Neque, porro!
+          Ready to transform your fitness journey? Join us today and experience expert training, state-of-the-art facilities, and a supportive community. Whether you're looking to lose weight, build strength, or improve flexibility, we have everything you need to succeed. Let's get you in the best shape of your life!
           </p>
         </motion.div>
 
